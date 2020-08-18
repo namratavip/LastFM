@@ -1,6 +1,7 @@
 
 package com.androidmodule.lastfm.data.model;
 
+import java.util.ArrayList;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -18,7 +19,7 @@ public class Album {
     private String url;
     @SerializedName("image")
     @Expose
-    private List<Image> image = null;
+    private ArrayList<Image> image = null;
     @SerializedName("streamable")
     @Expose
     private String streamable;
@@ -50,11 +51,11 @@ public class Album {
         this.url = url;
     }
 
-    public List<Image> getImage() {
+    public ArrayList<Image> getImage() {
         return image;
     }
 
-    public void setImage(List<Image> image) {
+    public void setImage(ArrayList<Image> image) {
         this.image = image;
     }
 

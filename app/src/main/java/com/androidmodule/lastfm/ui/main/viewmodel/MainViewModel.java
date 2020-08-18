@@ -27,7 +27,6 @@ public class MainViewModel extends ViewModel {
         this.apiHelper = apiHelper;
         albumList = new MutableLiveData<>();
         compositeDisposable = new CompositeDisposable();
-
     }
 
     public void searchKey(String key) {

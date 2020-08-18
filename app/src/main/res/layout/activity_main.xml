@@ -9,10 +9,12 @@
     android:layout_margin="10dp"
     tools:context=".ui.main.view.MainActivity">
 
-    <androidx.appcompat.widget.SearchView
+    <SearchView
         android:layout_width="match_parent"
         android:id="@+id/search_album"
-        android:queryHint="Search by album"
+        android:background="@color/grey"
+        android:queryHint="Search"
+        android:searchIcon="@mipmap/ic_launcher"
         android:iconifiedByDefault="false"
         android:layout_height="wrap_content"/>
 
